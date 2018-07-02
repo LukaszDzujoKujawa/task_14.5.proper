@@ -5,11 +5,10 @@ var Contacts = React.createClass({
 		render: function(){
 		
 		var contacts = this.props.items.map(function(contact){
-			return	React.createElement(Contact, {item: contact, key: contact.id});
+				return	React.createElement(Contact, {item: contact, key: contact.id});
 		});
-		
-			return (
-			React.createElement('div', {className: 'contact_list'}, contacts)
+				return (
+				React.createElement('div', {className: 'contact_list'}, contacts)
 		);
 	}
 });
