@@ -26,9 +26,6 @@ var contactForm = {
 };
 
 var App = React.createClass({
-	propTypes: {
-		
-	},
 	render: function() {
 		return (
 			React.createElement('div', {className: 'app'},
