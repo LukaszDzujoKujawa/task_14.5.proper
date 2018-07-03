@@ -2,7 +2,10 @@ body {
 	width: calc(100vw - 20px);
 	box-sizing: border-box;
 	padding: 20px;
-	font-size: .8rem;
+}
+
+*:root { 
+	font-size: .8rem; 
 }
 
 .app {
