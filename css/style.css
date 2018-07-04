@@ -4,8 +4,8 @@ body {
 	padding: 20px;
 }
 
-*:root { 
-	font-size: .8rem; 
+:root { 
+	font-size: 12px; 
 }
 
 .app {
